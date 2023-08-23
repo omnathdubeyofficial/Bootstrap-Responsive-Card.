@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful and Animated Cards</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .card {
+      border: none;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 10px auto;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+    .bg-primary {
+      background-color: #007bff !important;
+    }
+    .bg-success {
+      background-color: #28a745 !important;
+    }
+    .bg-danger {
+      background-color: #dc3545 !important;
+    }
+    .bg-warning {
+      background-color: #ffc107 !important;
+    }
+    .bg-info {
+      background-color: #17a2b8 !important;
+    }
+    .card-img-top {
+      border-radius: 50%;
+      max-width: 100px;
+      margin: 0 auto;
+      margin-top: 24px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-3">
+      <div class="card bg-primary text-white">
+        <img src="https://media.kutumbapp.com/user/4b3fdcb2-91d9-409a-9462-7fa3c6b2f741" class="card-img-top" alt="Profile 1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Omnath Dubey</h5>
+          <p class="card-text">Web Developer</p>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-success text-white">
+        <img src="https://media.kutumbapp.com/user/4b3fdcb2-91d9-409a-9462-7fa3c6b2f741" class="card-img-top" alt="Profile 2">
+        <div class="card-body text-center">
+            <h5 class="card-title">Omnath Dubey</h5>
+            <p class="card-text">Web Developer</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-danger text-white">
+        <img src="https://media.kutumbapp.com/user/4b3fdcb2-91d9-409a-9462-7fa3c6b2f741" class="card-img-top" alt="Profile 3">
+        <div class="card-body text-center">
+            <h5 class="card-title">Omnath Dubey</h5>
+            <p class="card-text">Web Developer</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card bg-warning text-white">
+        <img src="https://media.kutumbapp.com/user/4b3fdcb2-91d9-409a-9462-7fa3c6b2f741" class="card-img-top" alt="Profile 4">
+        <div class="card-body text-center">
+            <h5 class="card-title">Omnath Dubey</h5>
+            <p class="card-text">Web Developer</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
